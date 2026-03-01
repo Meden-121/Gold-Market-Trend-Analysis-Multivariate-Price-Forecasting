@@ -1,6 +1,7 @@
 ## **Beyond Accuracy: Evaluating Directional Trends vs. Prediction Errors in Gold Market Forecasting**
 
 **📌 1. Project Overview**
+
 The project focuses on forecasting international gold prices (XAU/USD) using both traditional statistical models (ARIMA) and modern machine learning techniques, including XGBoost and Random Forest.
 
 The core differentiation of this project lies in challenging the conventional assumption that “lower error equals a better model” in financial forecasting. Instead of solely optimizing traditional metrics such as RMSE or MAE, the project introduces a Directional-First evaluation framework that prioritizes the model’s ability to correctly capture price direction (Directional Accuracy).
@@ -16,6 +17,7 @@ By emphasizing trend prediction (upward/downward movements) rather than just min
 - Models with low forecasting errors (such as ARIMA) often suffer from a lagging effect. Since these models heavily rely on recent price patterns, they tend to predict tomorrow’s price very close to today’s price. As a result, they may miss critical turning points and generate delayed trading signals, reducing their effectiveness in real-world trading decisions.
 
 **Macroeconomic Drivers**
+
 Gold prices are modeled using a multivariate framework incorporating key macroeconomic indicators:
 
 - **USD Index (DXY):** The currency benchmark in which gold is denominated.
