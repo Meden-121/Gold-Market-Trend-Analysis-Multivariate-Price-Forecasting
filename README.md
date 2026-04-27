@@ -1,4 +1,4 @@
-## **Beyond Accuracy: Evaluating Directional Trends vs. Prediction Errors in Gold Market Forecasting**
+## **Gold Market Trend Analysis & Multivariate Price Forecasting**
 
 **📌 1. Project Overview**
 
